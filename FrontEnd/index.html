@@ -68,47 +68,43 @@
 		
 		<div class="container">
 			<div class="row">
-				<div class="darkBG col-sm-6 col-xs-12">
-					<a href="#" class="btn btn-default">Current Account</a>
-					<a href="#" class="btn btn-primary">Current Account</a>
-					<a href="#" class="btn btn-success">Current Account</a>
-					<a href="#" class="btn btn-warning">Current Account</a>
-				</div>
+				<div class="darkBG col-sm-6 col-xs-12">Current Account</div>
 				<div class="darkerBG col-sm-3 col-xs-6">Credit Cards</div>
 				<div class="darkestBG col-sm-3 col-xs-6">Savings</div>
 			</div>
 		</div>
 		
 		<div class="myPanel">
-			<div class="heading">my header</div>
+			<div class="heading">Credit Cards</div>
 			<div class="body">
-				<p>my body</p>
+				<p>Click this button to display Credit Card balance..</p>
 				<div class="showOnHover">
-					<a href="#" class="btn btn-xs btn-danger">delete</a>
+					<a href="#" class="btn btn-xs btn-primary" onclick="fetchCreditCardsBalance()">Display</a>
 				</div>
 			</div>
 		</div>
 		
 		<div class="myPanel">
-			<div class="heading">my header</div>
+			<div class="heading">Current Account</div>
 			<div class="body">
-				<p>my body</p>
+				<p>Click this button to display Current Account balance..</p>
 				<div class="showOnHover">
-					<a href="#" class="btn btn-xs btn-danger">delete</a>
+					<a href="#" class="btn btn-xs btn-primary" onclick="fetchCurrentAccountBalance()">Display</a>
 				</div>
 			</div>
 		</div>
 		
 		<div class="myPanel">
-			<div class="heading">my header</div>
+			<div class="heading">Savings</div>
 			<div class="body">
-				<p>my body</p>
+				<p>Click this button to display Savings Account balance..</p>
 				<div class="showOnHover">
-					<a href="#" class="btn btn-xs btn-danger">delete</a>
+					<a href="#" class="btn btn-xs btn-primary" onclick="fetchSavingsAccountBalance()">Display</a>
 				</div>
 			</div>
 		</div>
 	
+		<script src="scripts/myjs.js"></script>
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	
 		<!-- Latest compiled and minified JavaScript -->
